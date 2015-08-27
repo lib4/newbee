@@ -20,6 +20,9 @@ public class WelcomeActivity extends FragmentActivity {
      */
     private static final int NUM_PAGES = 5;
 
+    private static final int SECTION_PERSONAL = 0;
+    private static final int SECTION_EVERYTHING_ELSE = 1;
+
     /**
      * The pager widget, which handles animation and allows swiping horizontally to access previous
      * and next wizard steps.
@@ -47,7 +50,18 @@ public class WelcomeActivity extends FragmentActivity {
         mNextButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(WelcomeActivity.this, MainActivity.class);
+
+                Intent intent = null;
+                int section = mPager.getCurrentItem();
+                switch(section) {
+                    case SECTION_PERSONAL:
+                        intent = new Intent(WelcomeActivity.this, PersonalDetailsActivity.class);
+                        break;
+                    default:
+                        intent = new Intent(WelcomeActivity.this, MainActivity.class);
+                        break;
+
+                }
                 startActivity(intent);
             }
         });
