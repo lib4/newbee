@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/anasabubacker/NavigationDrawer/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/anasabubacker/NavigationDrawer/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-8cc2b505bb6770c70ed4f8e5c2aeca62d9d2e475.jar" />
+    </item>
+    <item
+        jar="/Users/anasabubacker/NavigationDrawer/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/anasabubacker/NavigationDrawer/app/build/intermediates/pre-dexed/debug/classes-4e80236e015a45cafadda89b9477dccd1e73dd5c.jar" />
+    </item>
+    <item
+        jar="/Users/anasabubacker/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/anasabubacker/NavigationDrawer/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-fcaf87c753ccec5b5e244eb94128ac78fb56ec39.jar" />
+    </item>
+
+</items>

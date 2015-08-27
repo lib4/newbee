@@ -1,0 +1,4 @@
+/Users/anasabubacker/NavigationDrawer/app/build/intermediates/classes/debug
+/Users/anasabubacker/NavigationDrawer/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-fcaf87c753ccec5b5e244eb94128ac78fb56ec39.jar
+/Users/anasabubacker/NavigationDrawer/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-8cc2b505bb6770c70ed4f8e5c2aeca62d9d2e475.jar
+/Users/anasabubacker/NavigationDrawer/app/build/intermediates/pre-dexed/debug/classes-4e80236e015a45cafadda89b9477dccd1e73dd5c.jar
