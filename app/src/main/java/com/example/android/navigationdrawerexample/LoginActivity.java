@@ -16,11 +16,13 @@ public class LoginActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login);
-        findViewById(R.id.btn_gmail_login).setOnClickListener(new View.OnClickListener() {
+        getActionBar().hide();
+        findViewById(R.id.iv_login_logo).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(LoginActivity.this, WelcomeActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
     }
