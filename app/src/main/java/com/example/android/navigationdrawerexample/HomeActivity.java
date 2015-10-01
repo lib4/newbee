@@ -109,6 +109,9 @@ public class HomeActivity extends FragmentActivity {
         mPager = (ViewPager) findViewById(R.id.pager);
         mPagerAdapter = new ScreenSlidePagerAdapter(getSupportFragmentManager());
         mPager.setAdapter(mPagerAdapter);
+
+
+        setTitle("Welcome, Bob");
     }
 
     @Override
@@ -170,6 +173,7 @@ public class HomeActivity extends FragmentActivity {
         FragmentManager fragmentManager = getFragmentManager();
         fragmentManager.beginTransaction().replace(R.id.content_frame, fragment).commit();
 
+
         // update selected item and title, then close the drawer
         mDrawerList.setItemChecked(position, true);
         setTitle(mPlanetTitles[position]);
@@ -212,7 +216,9 @@ public class HomeActivity extends FragmentActivity {
 
         @Override
         public android.support.v4.app.Fragment getItem(int position) {
-            return new ScreenSlidePageFragment();
+            ScreenSlidePageFragment screenSlidePageFragment = new ScreenSlidePageFragment();
+            screenSlidePageFragment.setPosition(position);
+            return screenSlidePageFragment;
         }
 
         @Override

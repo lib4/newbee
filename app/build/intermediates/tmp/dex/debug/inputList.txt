@@ -1,4 +1,4 @@
-/Users/anasabubacker/NavigationDrawer/app/build/intermediates/classes/debug
-/Users/anasabubacker/NavigationDrawer/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-fcaf87c753ccec5b5e244eb94128ac78fb56ec39.jar
-/Users/anasabubacker/NavigationDrawer/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-8cc2b505bb6770c70ed4f8e5c2aeca62d9d2e475.jar
-/Users/anasabubacker/NavigationDrawer/app/build/intermediates/pre-dexed/debug/classes-4e80236e015a45cafadda89b9477dccd1e73dd5c.jar
+/Users/adrian.roney/personal_projects/newbee/app/build/intermediates/classes/debug
+/Users/adrian.roney/personal_projects/newbee/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-107f65e7957e2b335a9f61402ca4c9611b5666e9.jar
+/Users/adrian.roney/personal_projects/newbee/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-d9e625316f999193d9e075a26e10b63b52fa618d.jar
+/Users/adrian.roney/personal_projects/newbee/app/build/intermediates/pre-dexed/debug/classes-53fdc30c7a890bdb22eb22de8f907afb5201be3e.jar
